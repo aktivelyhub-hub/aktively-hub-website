@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Work &amp; Services — Aktively Hub</title>
-<meta name="description" content="Product photography, short-form video, ad creatives, and full campaigns from Aktively Hub — client work and concept campaigns.">
+<meta name="description" content="Product photography, short-form video, ad creatives, and full campaigns from Aktively Hub — clearly labelled concept campaigns and our creative services.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -17,19 +17,21 @@
     <a href="index.html" class="logo">AKTIVELY <span>HUB</span></a>
     <div class="navlinks">
       <a href="work.html" class="active">Work</a>
+      <a href="systems.html">Business systems</a>
       <a href="about.html">About</a>
     </div>
     <div style="display:flex;align-items:center;gap:12px;">
-      <a href="about.html#contact" class="btn navcta">Start a SHOOT</a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <a href="about.html#contact" class="btn navcta">Start a project</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-controls="mobileMenu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       </button>
     </div>
   </nav>
   <div class="mobile-menu" id="mobileMenu">
     <a href="work.html">Work</a>
-    <a href="about.html">About</a>
-    <a href="about.html#contact">Start a SHOOT</a>
+    <a href="systems.html">Business systems</a>
+      <a href="about.html">About</a>
+    <a href="about.html#contact">Start a project</a>
   </div>
 </header>
 
@@ -69,18 +71,22 @@
   </div>
 </section>
 
+<section class="wrap" aria-labelledby="commissions-title">
+  <div class="section-head"><span class="eyebrow">Commissioned experience</span><h2 id="commissions-title">Creative work for real businesses.</h2><p>Our commissioned projects include Slide In, a footwear business, and a law firm. Contact us to discuss relevant examples and the scope of your project.</p></div>
+  <a class="text-link" href="about.html#contact">Ask about relevant client work →</a>
+</section>
 <section class="work" id="work">
   <div class="wrap">
     <div class="section-head reveal">
       <span class="eyebrow">Selected Projects</span>
-      <h2>Client work &amp; concept campaigns</h2>
+      <h2>Selected concept campaigns</h2>
     </div>
 
     <div class="featured reveal">
       <div class="featured-copy">
-        <span class="tag">Client Work</span>
-        <h3>Siente Nourish &amp; Glow — body care &amp; fragrance launch</h3>
-        <p>Our first formalized client case study: a full campaign build for the Siente body wash line, paired with the Oler fragrance concept — editorial product photography and social-ready assets in a warm, premium aesthetic.</p>
+        <span class="tag">Self-initiated concepts</span>
+        <h3>SIENTE &amp; OLER — beauty and fragrance concepts</h3>
+        <p>Self-initiated product and lifestyle explorations: SIENTE body care and OLER fragrance. These examples demonstrate creative direction, AI-assisted imagery and coordinated social assets. They were not commissioned by either brand.</p>
         <a href="about.html#contact" class="btn ghost" style="border-color:var(--forest);color:var(--forest);">Discuss a similar campaign →</a>
       </div>
       <div class="featured-media">
@@ -100,7 +106,7 @@
         <div class="concept-cap"><h4>FanMilk</h4><span>Concept</span></div>
       </div>
     </div>
-    <p class="caveat reveal" style="margin-top:22px;">Siente &amp; Oler is client work. MTN and FanMilk are concept campaigns — unsolicited creative, not official partnerships.</p>
+    <p class="caveat reveal" style="margin-top:22px;">SIENTE, OLER, MTN and FanMilk examples shown here are self-initiated concepts. They do not imply a client relationship, brand endorsement or measured campaign results.</p>
   </div>
 </section>
 
@@ -113,22 +119,16 @@
     </div>
     <div class="reel-row reveal">
       <div class="reel-card">
-        <video controls playsinline preload="none" poster="assets/video-tampico-poster.jpg">
-          <source src="assets/video-tampico.mp4" type="video/mp4">
+        <video aria-label="Tampico concept film" controls playsinline preload="none" poster="assets/video-tampico-poster.jpg">
+          <source src="video-tampico.mp4" type="video/mp4">
         </video>
-        <div class="reel-cap">Tampico — concept campaign video</div>
+        <div class="reel-cap">Tampico — self-initiated concept film</div>
       </div>
       <div class="reel-card square">
-        <video controls playsinline preload="none" poster="assets/video-fanmilk-poster.jpg">
-          <source src="assets/video-fanmilk.mp4" type="video/mp4">
-        </video>
-        <div class="reel-cap">FanMilk — concept campaign video</div>
-      </div>
-      <div class="reel-card square">
-        <video controls playsinline preload="none" poster="assets/video-malt-poster.jpg">
+        <video aria-label="Black Rock concept film" controls playsinline preload="none" poster="assets/video-malt-poster.jpg">
           <source src="assets/video-malt.mp4" type="video/mp4">
         </video>
-        <div class="reel-cap">Black Rock Whiskey — concept campaign video</div>
+        <div class="reel-cap">Black Rock Whiskey — self-initiated concept film</div>
       </div>
     </div>
   </div>
@@ -136,13 +136,10 @@
 
 <footer>
   <div class="wrap footer-grid">
-    <div class="foot-copy">© <span id="year"></span> Aktively Hub. All work shown is either client-approved or clearly labeled concept work.</div>
+    <div class="foot-copy">© <span id="year"></span> Aktively Hub. Concept projects are self-initiated explorations, not brand commissions or endorsements.</div>
     <div class="socials">
-      <span>@aktivelyhub</span>
-      <span>Instagram</span>
-      <span>TikTok</span>
-      <span>LinkedIn</span>
-      <span>X</span>
+      <a href="https://www.instagram.com/aktivelyhub_/" target="_blank" rel="noopener noreferrer">@aktivelyhub_</a>
+      <a href="https://linktr.ee/aktivelyhub" target="_blank" rel="noopener noreferrer">Socials &amp; contact links ↗</a>
     </div>
   </div>
 </footer>
