@@ -183,3 +183,5 @@ a:focus-visible,button:focus-visible,video:focus-visible{outline:3px solid #b177
 section[id]{scroll-margin-top:90px;}
 @media(max-width:640px){.offer-grid{grid-template-columns:1fr;}.offer-card{padding:24px;}.contact-secondary{margin-left:0;}.facts li b{min-width:110px;}.hero{min-height:76vh;}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto;}.btn{transition:none;}}
+
+section.wrap{padding:60px 24px;}
